@@ -414,6 +414,17 @@ body {
     border-bottom: 0 solid rgba(0, 0, 0, .125);
     color:  #007bff;
 }
+ .recruiter_img_area {
+            padding: 15px 0;
+        }
+        .recruiter_img {
+            max-width: 150px;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .recruiter_img:hover {
+            transform: scale(1.1);
+        }
 /*footer*/
  footer {
             background-color: darkslategrey;
